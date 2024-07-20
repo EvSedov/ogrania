@@ -1,0 +1,88 @@
+theme: docura
+
+enableGitInfo: false
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-xxxxxxxxxx
+
+defaultContentLanguage: ru
+languages:
+  ru:
+    languageName: Russian
+    languageCode: ru-RU
+    contentDir: content/ru
+    title: Ogrania
+    description: Дополнительная профессиональная программа повышения квалификации юристов «Лицензирование и постлицензионное сопровождение образовательной деятельности»
+    weight: 1
+
+params:
+
+  author:
+    name: Токарева Екатерина
+    url: https://ogrania.ru
+
+  themeColors:
+    light: '#ffffff'
+    dark: '#121212'
+
+  years:
+    start: ''
+    present: 2024
+
+  social:
+    github: ''
+    youtube: ''
+    facebook: ''
+    x: ''
+
+  ads:
+    googleAdSense: ''
+
+  donate:
+    buyMeACoffee: ''
+    githubSponsor: ''
+
+  # algolia:
+  #   en:
+  #     container: '#site-header-search'
+  #     appId: ''
+  #     indexName: ''
+  #     apiKey: ''
+
+  home:
+
+    repository: ''
+
+#    repositories:
+#      - name: Website
+#        repo: org/site
+#        icon: "<i class='icon icon-book'></i>"
+#        description: The repository of the website
+#
+#      - name: Code
+#        repo: org/project
+#        icon: "<i class='icon icon-book'></i>"
+#        description: The repository of the project
+
+menu:
+  main:
+  
+    - url: /
+      name: Главная
+      identifier: home
+      pre: "<i class='icon icon-home'></i>"
+      weight: 1
+
+    - url: /docs
+      name: Сведения об образовательной организации
+      identifier: docs
+      pre: "<i class='icon icon-book'></i>"
+      weight: 2
