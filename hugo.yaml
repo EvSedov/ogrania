@@ -1,5 +1,5 @@
 theme: docura
-baseURL: https://evsedov.github.io/ogrania
+baseURL: https://evsedov.github.io/ogrania # for deploying
 enableGitInfo: false
 
 markup:
