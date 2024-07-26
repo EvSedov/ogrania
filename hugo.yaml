@@ -12,7 +12,7 @@ markup:
 # services:
 #   googleAnalytics:
 #     ID: G-xxxxxxxxxx
-
+baseURL: /ogrania
 defaultContentLanguage: ru
 languages:
   ru:
