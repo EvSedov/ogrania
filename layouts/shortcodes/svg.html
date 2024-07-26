@@ -1,0 +1,17 @@
+<figure target="_blank">
+  {{ readFile (print "assets/svg/" (index .Params 0)) | safeHTML }}
+</figure>
+
+<style>
+  figure {
+    display: inline-block;
+  }
+
+  svg {
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    fill: red;
+  }
+</style>
