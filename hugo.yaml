@@ -1,5 +1,5 @@
 theme: docura
-
+baseURL: https://evsedov.github.io/ogrania
 enableGitInfo: false
 
 markup:
@@ -12,7 +12,6 @@ markup:
 # services:
 #   googleAnalytics:
 #     ID: G-xxxxxxxxxx
-baseURL: /ogrania
 defaultContentLanguage: ru
 languages:
   ru:
